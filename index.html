@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekcje</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            min-height: 100vh;
+            margin: 0;
+            transition: margin-left 0.3s;
+        }
+        #menu-toggle {
+            display: none;
+        }
+        .hamburger {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            cursor: pointer;
+            display: none;
+        }
+        .hamburger div {
+            width: 30px;
+            height: 3px;
+            background: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+        nav {
+            width: 250px;
+            height: 100vh;
+            background: #f0f0f0;
+            padding: 20px 0;
+            position: fixed;
+            left: 0;
+            transition: transform 0.3s;
+        }
+        nav a {
+            display: block;
+            padding: 15px 20px;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a:hover {
+            background: #ddd;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            margin-left: 250px;
+        }
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+            nav {
+                transform: translateX(-100%);
+            }
+            main {
+                margin-left: 0;
+            }
+            #menu-toggle:checked ~ nav {
+                transform: translateX(0);
+            }
+            #menu-toggle:checked ~ main {
+                margin-left: 250px;
+            }
+            #menu-toggle:checked ~ .hamburger div:nth-child(1) {
+                transform: rotate(-45deg) translate(-5px, 6px);
+            }
+            #menu-toggle:checked ~ .hamburger div:nth-child(2) {
+                opacity: 0;
+            }
+            #menu-toggle:checked ~ .hamburger div:nth-child(3) {
+                transform: rotate(45deg) translate(-5px, -6px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+    <nav>
+        <a href="#">Lekcja 1</a>
+        <a href="#">Lekcja 2</a>
+        <a href="#">Lekcja 3</a>
+        <a href="#">Lekcja 4</a>
+        <a href="#">Lekcja 5</a>
+        <a href="#">Lekcja 6</a>
+        <a href="#">Lekcja 7</a>
+        <a href="#">Lekcja 8</a>
+        <a href="#">Lekcja 9</a>
+    </nav>
+    <main>
+        <h1>Witaj na stronie z lekcjami</h1>
+        <p>Wybierz lekcję z menu po lewej stronie.</p>
+    </main>
+</body>
+</html>
