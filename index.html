@@ -15,6 +15,19 @@
             margin: 0;
             min-height: 100vh;
         }
+        b {
+            color: #c00;
+        }
+        p {
+            text-align: justify;
+            margin-top: 0.25em;
+        }
+        ul li {
+            margin-left: 1em;
+        }
+        h1, h2 {
+            margin-top: 0.5em;
+        }
         nav {
             background: #f0f0f0;
         }
@@ -62,19 +75,51 @@
 </head>
 <body>
     <nav>
-        <a href="#">Lekcja 1</a>
-        <a href="#">Lekcja 2</a>
-        <a href="#">Lekcja 3</a>
-        <a href="#">Lekcja 4</a>
-        <a href="#">Lekcja 5</a>
-        <a href="#">Lekcja 6</a>
-        <a href="#">Lekcja 7</a>
-        <a href="#">Lekcja 8</a>
-        <a href="#">Lekcja 9</a>
+        <a href="#przedmowa">Przedmowa</a>
+        <a href="#lekcja1">Lekcja 1</a>
+        <a href="#lekcja2">Lekcja 2</a>
+        <a href="#lekcja3">Lekcja 3</a>
+        <a href="#lekcja4">Lekcja 4</a>
+        <a href="#lekcja5">Lekcja 5</a>
+        <a href="#lekcja6">Lekcja 6</a>
+        <a href="#lekcja7">Lekcja 7</a>
+        <a href="#lekcja8">Lekcja 8</a>
+        <a href="#lekcja9">Lekcja 9</a>
+        <a href="#bibliografia">Bibliografia</a>
     </nav>
     <main>
-        <h1>Witaj na stronie z lekcjami</h1>
-        <p>Wybierz lekcję z menu.</p>
+        <h1 id="przedmowa">Przedmowa</h1>
+        <h1 id="lekcja1">Lekcja 1</h1>
+            <p>Język rosyjski posługuje się pismem zwanym grażdanką – graficzną odmianą cyrylicy opracowaną w Rosji w&nbsp;XVIII&nbsp;w., zmodyfikowaną w okresie reform alfabetu rosyjskiego na początku XX&nbsp;w. Od tego czasu alfabet języka rosyjskiego składa się z&nbsp;33&nbsp;liter (буквы), w tym 2&nbsp;znaków ortograficznych, 10&nbsp;samogłosek (гласные) i&nbsp;21&nbsp;spółgłosek (согласные).</p>
+            <p>Согласные: б в г д ж з й к л м н п р с т ф х ц ч ш щ</p>
+            <p>Гласные: а о и <b>е</b> <b>ё</b> э ы у <b>ю</b> <b>я</b></p>
+            <p>Звуков не обозначают: ь ъ</p>
+            <p>Samogłoski zaznaczone na czerwono to tzw. samogłoski jotowane (йотированные гласные).</p>
+            <p>Według moskiewskiej szkoły fonologicznej, system fonologiczny języka rosyjskiego składa się z 39&nbsp;fonemów: 5&nbsp;samogłoskowych i&nbsp;34&nbsp;spółgłoskowych.</p>
+            <p>Spółgłoski możemy podzielić na:
+            <ul>
+            <li>twarde (твёрдые) i miękkie (мягкие),</li>
+            <li>dźwięczne (збонкие) i bezdźwięczne (глухие).</li>
+            </ul>
+            </p>
+            <p>Spółgłoski miękkie to spółgłoski, przy których wymawianiu środkowa część języka unosi się ku podniebieniu, w przeciwieństwie do spółgłosek twardych.</p>
+            <p>Spółgłoski dźwięczne to spółgłoski, przy których wymowie więzadła głosowe drżą, w przeciwieństwie do spółgłosek bezdźwięcznych. Samogłoski to z kolei głoski wyłącznie dźwięczne.</p>
+            <p>Niektóre spółgłoski ze względu na dźwięczność tworzą pary, tzw. парные звуки. Spółgłoski nietworzące par to непарные звуки.
+            <p>Парные звуки: б-п в-ф г-к д-т з-с ж-ш</p>
+            <p>Непарные звонкие звуки: л м н р й</p>
+            <p>Непарные глухие звуки: х ц ч щ</p>
+            <p>Spółgłoski ж, ш, ц są zawsze twarde, tj. zawsze wymawiane twardo. Oznacza to, że niezależnie od samogłoski następującej po tych spółgłoskach, ich brzmienie nie ulega zmianie. Analogicznie, spółgłoski й, ч, щ są zawsze wymawiane miękko.</p>
+            <h2>Алфавит (alfabet)</h2>
+            <table><tr><th>Буква</th><th>Курсив</th><th>Почерк</th><th>Название</th><th>Иллюстрация</th><th>Слово</th></tr><tr><td>А а</td><td><i>А а</i></td><td><img src="img/letters/01-Russian_alphabet-А_а.svg"></img></td><td>а</td><td><img src="img/illustrations/01-alphabet-ананас.png"></img></td><td>ананас</td></tr><tr><td>Б б</td><td><i>Б б</i></td><td><img src="img/letters/02-Russian_alphabet-Б_б.svg"></img></td><td>бэ</td><td><img src="img/illustrations/02-alphabet-банан.png"></img></td><td>банан</td></tr><tr><td>В в</td><td><i>В в</i></td><td><img src="img/letters/03-Russian_alphabet-В_в.svg"></img></td><td>вэ</td><td><img src="img/illustrations/03-alphabet-вишня.png"></img></td><td>вишня</td></tr><tr><td>Г г</td><td><i>Г г</i></td><td><img src="img/letters/04-Russian_alphabet-Г_г.svg"></img></td><td>гэ</td><td><img src="img/illustrations/04-alphabet-груша.png"></img></td><td>груша</td></tr><tr><td>Д д</td><td><i>Д д</i></td><td><img src="img/letters/05-Russian_alphabet-Д_д.svg"></img></td><td>де</td><td><img src="img/illustrations/05-alphabet-дом.png"></img></td><td>дом</td></tr><tr><td>Е е</td><td><i>Е е</i></td><td><img src="img/letters/06-Russian_alphabet-Е_е.svg"></img></td><td>е</td><td><img src="img/illustrations/06-alphabet-еда.png"></img></td><td>еда</td></tr><tr><td>Ё ё</td><td><i>Ё ё</i></td><td><img src="img/letters/07-Russian_alphabet-Ё_ё.svg"></img></td><td>ё</td><td><img src="img/illustrations/07-alphabet-ёлка.png"></img></td><td>ёлка</td></tr><tr><td>Ж ж</td><td><i>Ж ж</i></td><td><img src="img/letters/08-Russian_alphabet-Ж_ж.svg"></img></td><td>жэ</td><td><img src="img/illustrations/08-alphabet-жираф.png"></img></td><td>жираф</td></tr><tr><td>З з</td><td><i>З з</i></td><td><img src="img/letters/09-Russian_alphabet-З_з.svg"></img></td><td>зэ</td><td><img src="img/illustrations/09-alphabet-зонт.png"></img></td><td>зонт</td></tr><tr><td>И и</td><td><i>И и</i></td><td><img src="img/letters/10-Russian_alphabet-И_и.svg"></img></td><td>и</td><td><img src="img/illustrations/10-alphabet-Игла.png"></img></td><td>игла</td></tr><tr><td>Й й</td><td><i>Й й</i></td><td><img src="img/letters/11-Russian_alphabet-Й_й.svg"></img></td><td>и краткое</td><td><img src="img/illustrations/11-alphabet-йогурт.png"></img></td><td>йогурт</td></tr><tr><td>К к</td><td><i>К к</i></td><td><img src="img/letters/12-Russian_alphabet-К_к.svg"></img></td><td>ка</td><td><img src="img/illustrations/12-alphabet-кот.png"></img></td><td>кот</td></tr><tr><td>Л л</td><td><i>Л л</i></td><td><img src="img/letters/13-Russian_alphabet-Л_л.svg"></img></td><td>эл</td><td><img src="img/illustrations/13-alphabet-лимон.png"></img></td><td>лимон</td></tr><tr><td>М м</td><td><i>М м</i></td><td><img src="img/letters/14-Russian_alphabet-М_м.svg"></img></td><td>эм</td><td><img src="img/illustrations/14-alphabet-машина.png"></img></td><td>машина</td></tr><tr><td>Н н</td><td><i>Н н</i></td><td><img src="img/letters/15-Russian_alphabet-Н_н.svg"></img></td><td>эн</td><td><img src="img/illustrations/15-alphabet-нос.png"></img></td><td>нос</td></tr><tr><td>О о</td><td><i>О о</i></td><td><img src="img/letters/16-Russian_alphabet-О_о.svg"></img></td><td>о</td><td><img src="img/illustrations/16-alphabet-окно.png"></img></td><td>окно</td></tr><tr><td>П п</td><td><i>П п</i></td><td><img src="img/letters/17-Russian_alphabet-П_п.svg"></img></td><td>пэ</td><td><img src="img/illustrations/17-alphabet-пёс.png"></img></td><td>пёс</td></tr><tr><td>Р р</td><td><i>Р р</i></td><td><img src="img/letters/18-Russian_alphabet-Р_р.svg"></img></td><td>эр</td><td><img src="img/illustrations/18-alphabet-роза.png"></img></td><td>роза</td></tr><tr><td>С с</td><td><i>С с</i></td><td><img src="img/letters/19-Russian_alphabet-С_с.svg"></img></td><td>эс</td><td><img src="img/illustrations/19-alphabet-солнце.png"></img></td><td>солнце</td></tr><tr><td>Т т</td><td><i>Т т</i></td><td><img src="img/letters/20-Russian_alphabet-Т_т.svg"></img></td><td>тэ</td><td><img src="img/illustrations/20-alphabet-тигр.png"></img></td><td>тигр</td></tr><tr><td>У у</td><td><i>У у</i></td><td><img src="img/letters/21-Russian_alphabet-У_у.svg"></img></td><td>у</td><td><img src="img/illustrations/21-alphabet-утка.png"></img></td><td>утка</td></tr><tr><td>Ф ф</td><td><i>Ф ф</i></td><td><img src="img/letters/22-Russian_alphabet-Ф_ф.svg"></img></td><td>эф</td><td><img src="img/illustrations/22-alphabet-фотоаппарат.png"></img></td><td>фотоаппарат</td></tr><tr><td>Х х</td><td><i>Х х</i></td><td><img src="img/letters/23-Russian_alphabet-Х_х.svg"></img></td><td>ха</td><td><img src="img/illustrations/23-alphabet-хлеб.png"></img></td><td>хлеб</td></tr><tr><td>Ц ц</td><td><i>Ц ц</i></td><td><img src="img/letters/24-Russian_alphabet-Ц_ц.svg"></img></td><td>цэ</td><td><img src="img/illustrations/24-alphabet-цветок.png"></img></td><td>цветок</td></tr><tr><td>Ч ч</td><td><i>Ч ч</i></td><td><img src="img/letters/25-Russian_alphabet-Ч_ч.svg"></img></td><td>чэ</td><td><img src="img/illustrations/25-alphabet-часы.png"></img></td><td>часы</td></tr><tr><td>Ш ш</td><td><i>Ш ш</i></td><td><img src="img/letters/26-Russian_alphabet-Ш_ш.svg"></img></td><td>ша</td><td><img src="img/illustrations/26-alphabet-шар.png"></img></td><td>шар</td></tr><tr><td>Щ щ</td><td><i>Щ щ</i></td><td><img src="img/letters/27-Russian_alphabet-Щ_щ.svg"></img></td><td>ща</td><td><img src="img/illustrations/27-alphabet-щука.png"></img></td><td>щука</td></tr><tr><td>Ъ ъ</td><td><i>Ъ ъ</i></td><td><img src="img/letters/28-Russian_alphabet-ъ.svg"></img></td><td>твёрдый знак</td><td><img src="img/illustrations/28-alphabet-подъезд.png"></img></td><td>подъезд</td></tr><tr><td>Ы ы</td><td><i>Ы ы</i></td><td><img src="img/letters/29-Russian_alphabet-ы.svg"></img></td><td>ы</td><td><img src="img/illustrations/29-alphabet-мышь.png"></img></td><td>мышь</td></tr><tr><td>Ь ь</td><td><i>Ь ь</i></td><td><img src="img/letters/30-Russian_alphabet-ь.svg"></img></td><td>мягкий знак</td><td><img src="img/illustrations/30-alphabet-дверь.png"></img></td><td>дверь</td></tr><tr><td>Э э</td><td><i>Э э</i></td><td><img src="img/letters/31-Russian_alphabet-Э_э.svg"></img></td><td>э или э оборотное</td><td><img src="img/illustrations/31-alphabet-эскимо.png"></img></td><td>эскимо</td></tr><tr><td>Ю ю</td><td><i>Ю ю</i></td><td><img src="img/letters/32-Russian_alphabet-Ю_ю.svg"></img></td><td>ю</td><td><img src="img/illustrations/32-alphabet-юла.png"></img></td><td>юла</td></tr><tr><td>Я я</td><td><i>Я я</i></td><td><img src="img/letters/33-Russian_alphabet-Я_я.svg"></img></td><td>я</td><td><img src="img/illustrations/33-alphabet-яблоко.png"></img></td><td>яблоко</td></tr></table>
+        <h1 id="lekcja2">Lekcja 2</h1>
+        <h1 id="lekcja3">Lekcja 3</h1>
+        <h1 id="lekcja4">Lekcja 4</h1>
+        <h1 id="lekcja5">Lekcja 5</h1>
+        <h1 id="lekcja6">Lekcja 6</h1>
+        <h1 id="lekcja7">Lekcja 7</h1>
+        <h1 id="lekcja8">Lekcja 8</h1>
+        <h1 id="lekcja9">Lekcja 9</h1>
+        <h1 id="bibliografia">Bibliografia</h1>
     </main>
 </body>
 </html>
