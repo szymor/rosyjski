@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="18.0px"
+   height="42.0px"
+   overflow="visible"
+   viewBox="0.0 0.0 18.0 42.0"
+   enable-background="new 0.0 0.0 18.0 42.0"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="29russisch-i.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="668"
+     inkscape:window-width="640"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="11"
+     inkscape:cx="9"
+     inkscape:cy="21"
+     inkscape:window-x="242"
+     inkscape:window-y="277"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 21 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="18 : 21 : 1"
+       inkscape:persp3d-origin="9 : 14 : 1"
+       id="perspective17" />
+  </defs>
+  <g
+     id="g8">
+    <g
+       transform="matrix(1.0 0.0 0.0 1.0 0.0 0.0)"
+       id="g10">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1.0"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         d="M 6.45 18.85 C 2.9499998 24.216667 1.6499999 27.716667 2.55 29.35 C 3.45 30.95 4.75 30.916668 6.45 29.25 C 8.25 27.216667 8.083333 25.283335 5.95 23.45 C 8.65 24.683332 11.083333 23.916666 13.25 21.15 C 11.616667 23.916666 10.816667 26.55 10.85 29.05 C 10.816667 31.516666 12.683333 31.25 16.45 28.25 M 1.45 23.25 L 6.45 18.85 M 13.25 21.15 L 14.8 18.65"
+         id="path12" />
+    </g>
+  </g>
+</svg>

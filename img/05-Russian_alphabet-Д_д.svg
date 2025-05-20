@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="34.0px"
+   height="42.0px"
+   overflow="visible"
+   viewBox="0.0 0.0 34.0 42.0"
+   enable-background="new 0.0 0.0 34.0 42.0"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="05russisch-Dd.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="668"
+     inkscape:window-width="640"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="11"
+     inkscape:cx="17"
+     inkscape:cy="21"
+     inkscape:window-x="154"
+     inkscape:window-y="185"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 21 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="34 : 21 : 1"
+       inkscape:persp3d-origin="17 : 14 : 1"
+       id="perspective17" />
+  </defs>
+  <g
+     id="g8">
+    <g
+       transform="matrix(1.0 0.0 0.0 1.0 0.0 0.0)"
+       id="g10">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1.0"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         d="M 25.6 20.8 C 26.833334 19.666666 27.983334 19.1 29.05 19.1 C 30.083334 19.1 30.75 19.666666 31.05 20.8 C 31.283333 21.6 31.266666 22.533335 31.0 23.6 L 30.05 26.0 C 29.416666 27.1 28.65 28.066668 27.75 28.9 C 26.516666 30.0 25.383333 30.566668 24.35 30.6 C 23.283333 30.566666 22.583332 29.999998 22.25 28.9 C 21.949999 27.8 22.133331 26.449999 22.8 24.85 L 23.35 23.65 C 23.95 22.55 24.7 21.599998 25.6 20.8 Z M 23.3 40.0 C 21.4 41.833332 20.066666 41.5 19.3 39.0 C 19.199999 37.133335 22.25 34.216667 28.45 30.25 C 26.716667 34.416668 25.0 37.666668 23.3 40.0 Z M 28.45 30.25 L 30.05 26.0 M 20.3 26.6 L 23.35 23.65 M 31.0 23.6 L 32.8 19.1 M 31.3 27.6 L 28.45 30.25 M 18.6 5.25 L 19.55 5.45 C 26.116667 9.85 25.116667 17.316668 16.55 27.85 C 13.949999 31.016666 10.699999 31.316666 6.8 28.75 C 11.533333 22.016666 15.466666 14.183332 18.6 5.25 Z M 6.8 28.75 L 6.55 29.05 C 3.8833334 30.683332 2.2166667 30.816666 1.55 29.45 C 0.9166666 28.383333 1.25 27.516666 2.55 26.85 C 4.45 26.816666 5.866667 27.449999 6.8 28.75 Z M 12.55 5.45 C 8.983334 6.383333 7.3166666 8.816667 7.55 12.75 M 18.6 5.25 L 12.55 5.45"
+         id="path12" />
+    </g>
+  </g>
+</svg>
