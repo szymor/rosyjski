@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 import os
 import time
 import requests
@@ -5,6 +7,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import quote_plus
 from PIL import Image
 import io
+
+IMG_PATH = "../img/illustrations"
 
 # List of Cyrillic words in alphabetical order
 CYRILLIC_WORDS = [
@@ -17,7 +21,7 @@ CYRILLIC_WORDS = [
     'ёлка',      # Ё
     'жираф',     # Ж
     'зонт',      # З
-    'игрушка',   # И
+    'Игла',      # И
     'йогурт',    # Й
     'кот',       # К
     'лимон',     # Л
@@ -45,7 +49,7 @@ CYRILLIC_WORDS = [
 
 def download_images():
     # Create output directory if it doesn't exist
-    os.makedirs('cyrillic_images', exist_ok=True)
+    os.makedirs(IMG_PATH, exist_ok=True)
     
     # Cyrillic letters in order
     CYRILLIC_LETTERS = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
@@ -53,7 +57,7 @@ def download_images():
     for index, word in enumerate(CYRILLIC_WORDS, start=1):
         letter = CYRILLIC_LETTERS[index-1]
         filename = f"{index:02d}-alphabet-{word}.png"
-        filepath = os.path.join('cyrillic_images', filename)
+        filepath = os.path.join(IMG_PATH, filename)
         
         # Skip if file already exists
         if os.path.exists(filepath):
