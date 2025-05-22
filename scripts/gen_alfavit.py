@@ -64,9 +64,10 @@ if __name__ == "__main__":
     with open("alfavit.htm", "w") as f:
         f.write("<table>")
         # generate table header
-        f.write("<tr><th>Буква</th><th>Курсив</th><th>Почерк</th><th>Название</th><th>Иллюстрация</th><th>Слово</th></tr>")
+        f.write("<thead><tr><th>Буква</th><th>Курсив</th><th>Почерк</th><th>Название</th><th>Иллюстрация</th><th>Слово</th></tr></thead>")
         # generate table body
+        f.write("<tbody>")
         for i in range(33):
             f.write(f"<tr><td>{letters[i]}</td><td><i>{letters[i]}</i></td><td><img src=\"{letter_img[i]}\"></img></td><td>{names[i]}</td><td><img src=\"{illustration[i]}\"></img></td><td>{illustration_names[i]}</td></tr>")
-
+        f.write("</tbody>")
         f.write("</table>")
