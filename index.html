@@ -20,13 +20,28 @@
         }
         p {
             text-align: justify;
-            margin-top: 0.25em;
+            margin-top: 0.5em;
+        }
+        ul {
+            margin-top: 0.5em;
         }
         ul li {
             margin-left: 1em;
         }
-        h1, h2 {
+        h1, h2, h3, h4 {
             margin-top: 0.5em;
+        }
+        table {
+            margin: auto;
+            margin-top: 0.5em;
+            width: 90%;
+            border-spacing: 0px;
+        }
+        table tbody tr:nth-child(odd) {
+            background-color: #ccc
+        }
+        table tbody td {
+            text-align: center;
         }
         nav {
             background: #f0f0f0;
@@ -88,12 +103,16 @@
         <a href="#bibliografia">Bibliografia</a>
     </nav>
     <main>
-        <h1 id="przedmowa">Przedmowa</h1>
-        <h1 id="lekcja1">Lekcja 1</h1>
+        <h1 id="przedmowa">Предисловие (Przedmowa)</h1>
+            <p>Cześć! Niedawno postanowiłem nauczyć się języka rosyjskiego w stopniu przynajmniej komunikatywnym, więc zacząłem szukać odpowiednich materiałów. Natknąłem się na <a href="https://www.youtube.com/playlist?list=PLn-pmw1WQB8aUveYx-6YuKyEfYul__JUk"><img src="img/youtube.png"></img> kurs wideo od Katiuszy</a> i bardzo mi się spodobał. Niestety, samo oglądanie bez ćwiczeń na dłuższą metę daje niewiele, więc postanowiłem przygotować poniższe materiały w ramach treningu. Potraktuj je jako notatki lub uzupełnienie informacji przedstawionych na wspomnianym wcześniej kursie wideo. Jeśli czegoś nie rozumiesz, nie przejmuj się - niektóre przykłady do pełnego zrozumienia wymagają lepszej znajomości słownictwa i gramatyki, co nabywa się z czasem.</p>
+            <p>Notatki tworzone są w duchu wytyczonym przez Katiuszę, tj. im dalej w las, tym bardziej staram się używać języka rosyjskiego w miejsce języka polskiego.</p>
+        <h1 id="lekcja1">Урок 1 (Lekcja 1)</h1>
+            <p>Link do materiału wideo: <a href="https://www.youtube.com/watch?v=at2WdxwYyD0"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 1</a></p>
+            <h2>Алфавит (alfabet)</h2>
             <p>Język rosyjski posługuje się pismem zwanym grażdanką – graficzną odmianą cyrylicy opracowaną w Rosji w&nbsp;XVIII&nbsp;w., zmodyfikowaną w okresie reform alfabetu rosyjskiego na początku XX&nbsp;w. Od tego czasu alfabet języka rosyjskiego składa się z&nbsp;33&nbsp;liter (буквы), w tym 2&nbsp;znaków ortograficznych, 10&nbsp;samogłosek (гласные) i&nbsp;21&nbsp;spółgłosek (согласные).</p>
             <p>Согласные: б в г д ж з й к л м н п р с т ф х ц ч ш щ</p>
             <p>Гласные: а о и <b>е</b> <b>ё</b> э ы у <b>ю</b> <b>я</b></p>
-            <p>Звуков не обозначают: ь ъ</p>
+            <p>Беззвучные: ь ъ</p>
             <p>Samogłoski zaznaczone na czerwono to tzw. samogłoski jotowane (йотированные гласные).</p>
             <p>Według moskiewskiej szkoły fonologicznej, system fonologiczny języka rosyjskiego składa się z 39&nbsp;fonemów: 5&nbsp;samogłoskowych i&nbsp;34&nbsp;spółgłoskowych.</p>
             <p>Spółgłoski możemy podzielić na:
@@ -102,24 +121,390 @@
             <li>dźwięczne (збонкие) i bezdźwięczne (глухие).</li>
             </ul>
             </p>
-            <p>Spółgłoski miękkie to spółgłoski, przy których wymawianiu środkowa część języka unosi się ku podniebieniu, w przeciwieństwie do spółgłosek twardych.</p>
+            <p>Spółgłoski miękkie to spółgłoski, przy których wymawianiu środkowa część języka unosi się ku podniebieniu, w przeciwieństwie do spółgłosek twardych. Miękkość spółgłosek zależy od stojących obok samogłosek е, ё, ю, я, и lub miękkiego znaku ь.</p>
             <p>Spółgłoski dźwięczne to spółgłoski, przy których wymowie więzadła głosowe drżą, w przeciwieństwie do spółgłosek bezdźwięcznych. Samogłoski to z kolei głoski wyłącznie dźwięczne.</p>
             <p>Niektóre spółgłoski ze względu na dźwięczność tworzą pary, tzw. парные звуки. Spółgłoski nietworzące par to непарные звуки.
             <p>Парные звуки: б-п в-ф г-к д-т з-с ж-ш</p>
             <p>Непарные звонкие звуки: л м н р й</p>
             <p>Непарные глухие звуки: х ц ч щ</p>
             <p>Spółgłoski ж, ш, ц są zawsze twarde, tj. zawsze wymawiane twardo. Oznacza to, że niezależnie od samogłoski następującej po tych spółgłoskach, ich brzmienie nie ulega zmianie. Analogicznie, spółgłoski й, ч, щ są zawsze wymawiane miękko.</p>
-            <h2>Алфавит (alfabet)</h2>
-            <table><tr><th>Буква</th><th>Курсив</th><th>Почерк</th><th>Название</th><th>Иллюстрация</th><th>Слово</th></tr><tr><td>А а</td><td><i>А а</i></td><td><img src="img/letters/01-Russian_alphabet-А_а.svg"></img></td><td>а</td><td><img src="img/illustrations/01-alphabet-ананас.png"></img></td><td>ананас</td></tr><tr><td>Б б</td><td><i>Б б</i></td><td><img src="img/letters/02-Russian_alphabet-Б_б.svg"></img></td><td>бэ</td><td><img src="img/illustrations/02-alphabet-банан.png"></img></td><td>банан</td></tr><tr><td>В в</td><td><i>В в</i></td><td><img src="img/letters/03-Russian_alphabet-В_в.svg"></img></td><td>вэ</td><td><img src="img/illustrations/03-alphabet-вишня.png"></img></td><td>вишня</td></tr><tr><td>Г г</td><td><i>Г г</i></td><td><img src="img/letters/04-Russian_alphabet-Г_г.svg"></img></td><td>гэ</td><td><img src="img/illustrations/04-alphabet-груша.png"></img></td><td>груша</td></tr><tr><td>Д д</td><td><i>Д д</i></td><td><img src="img/letters/05-Russian_alphabet-Д_д.svg"></img></td><td>де</td><td><img src="img/illustrations/05-alphabet-дом.png"></img></td><td>дом</td></tr><tr><td>Е е</td><td><i>Е е</i></td><td><img src="img/letters/06-Russian_alphabet-Е_е.svg"></img></td><td>е</td><td><img src="img/illustrations/06-alphabet-еда.png"></img></td><td>еда</td></tr><tr><td>Ё ё</td><td><i>Ё ё</i></td><td><img src="img/letters/07-Russian_alphabet-Ё_ё.svg"></img></td><td>ё</td><td><img src="img/illustrations/07-alphabet-ёлка.png"></img></td><td>ёлка</td></tr><tr><td>Ж ж</td><td><i>Ж ж</i></td><td><img src="img/letters/08-Russian_alphabet-Ж_ж.svg"></img></td><td>жэ</td><td><img src="img/illustrations/08-alphabet-жираф.png"></img></td><td>жираф</td></tr><tr><td>З з</td><td><i>З з</i></td><td><img src="img/letters/09-Russian_alphabet-З_з.svg"></img></td><td>зэ</td><td><img src="img/illustrations/09-alphabet-зонт.png"></img></td><td>зонт</td></tr><tr><td>И и</td><td><i>И и</i></td><td><img src="img/letters/10-Russian_alphabet-И_и.svg"></img></td><td>и</td><td><img src="img/illustrations/10-alphabet-Игла.png"></img></td><td>игла</td></tr><tr><td>Й й</td><td><i>Й й</i></td><td><img src="img/letters/11-Russian_alphabet-Й_й.svg"></img></td><td>и краткое</td><td><img src="img/illustrations/11-alphabet-йогурт.png"></img></td><td>йогурт</td></tr><tr><td>К к</td><td><i>К к</i></td><td><img src="img/letters/12-Russian_alphabet-К_к.svg"></img></td><td>ка</td><td><img src="img/illustrations/12-alphabet-кот.png"></img></td><td>кот</td></tr><tr><td>Л л</td><td><i>Л л</i></td><td><img src="img/letters/13-Russian_alphabet-Л_л.svg"></img></td><td>эл</td><td><img src="img/illustrations/13-alphabet-лимон.png"></img></td><td>лимон</td></tr><tr><td>М м</td><td><i>М м</i></td><td><img src="img/letters/14-Russian_alphabet-М_м.svg"></img></td><td>эм</td><td><img src="img/illustrations/14-alphabet-машина.png"></img></td><td>машина</td></tr><tr><td>Н н</td><td><i>Н н</i></td><td><img src="img/letters/15-Russian_alphabet-Н_н.svg"></img></td><td>эн</td><td><img src="img/illustrations/15-alphabet-нос.png"></img></td><td>нос</td></tr><tr><td>О о</td><td><i>О о</i></td><td><img src="img/letters/16-Russian_alphabet-О_о.svg"></img></td><td>о</td><td><img src="img/illustrations/16-alphabet-окно.png"></img></td><td>окно</td></tr><tr><td>П п</td><td><i>П п</i></td><td><img src="img/letters/17-Russian_alphabet-П_п.svg"></img></td><td>пэ</td><td><img src="img/illustrations/17-alphabet-пёс.png"></img></td><td>пёс</td></tr><tr><td>Р р</td><td><i>Р р</i></td><td><img src="img/letters/18-Russian_alphabet-Р_р.svg"></img></td><td>эр</td><td><img src="img/illustrations/18-alphabet-роза.png"></img></td><td>роза</td></tr><tr><td>С с</td><td><i>С с</i></td><td><img src="img/letters/19-Russian_alphabet-С_с.svg"></img></td><td>эс</td><td><img src="img/illustrations/19-alphabet-солнце.png"></img></td><td>солнце</td></tr><tr><td>Т т</td><td><i>Т т</i></td><td><img src="img/letters/20-Russian_alphabet-Т_т.svg"></img></td><td>тэ</td><td><img src="img/illustrations/20-alphabet-тигр.png"></img></td><td>тигр</td></tr><tr><td>У у</td><td><i>У у</i></td><td><img src="img/letters/21-Russian_alphabet-У_у.svg"></img></td><td>у</td><td><img src="img/illustrations/21-alphabet-утка.png"></img></td><td>утка</td></tr><tr><td>Ф ф</td><td><i>Ф ф</i></td><td><img src="img/letters/22-Russian_alphabet-Ф_ф.svg"></img></td><td>эф</td><td><img src="img/illustrations/22-alphabet-фотоаппарат.png"></img></td><td>фотоаппарат</td></tr><tr><td>Х х</td><td><i>Х х</i></td><td><img src="img/letters/23-Russian_alphabet-Х_х.svg"></img></td><td>ха</td><td><img src="img/illustrations/23-alphabet-хлеб.png"></img></td><td>хлеб</td></tr><tr><td>Ц ц</td><td><i>Ц ц</i></td><td><img src="img/letters/24-Russian_alphabet-Ц_ц.svg"></img></td><td>цэ</td><td><img src="img/illustrations/24-alphabet-цветок.png"></img></td><td>цветок</td></tr><tr><td>Ч ч</td><td><i>Ч ч</i></td><td><img src="img/letters/25-Russian_alphabet-Ч_ч.svg"></img></td><td>чэ</td><td><img src="img/illustrations/25-alphabet-часы.png"></img></td><td>часы</td></tr><tr><td>Ш ш</td><td><i>Ш ш</i></td><td><img src="img/letters/26-Russian_alphabet-Ш_ш.svg"></img></td><td>ша</td><td><img src="img/illustrations/26-alphabet-шар.png"></img></td><td>шар</td></tr><tr><td>Щ щ</td><td><i>Щ щ</i></td><td><img src="img/letters/27-Russian_alphabet-Щ_щ.svg"></img></td><td>ща</td><td><img src="img/illustrations/27-alphabet-щука.png"></img></td><td>щука</td></tr><tr><td>Ъ ъ</td><td><i>Ъ ъ</i></td><td><img src="img/letters/28-Russian_alphabet-ъ.svg"></img></td><td>твёрдый знак</td><td><img src="img/illustrations/28-alphabet-подъезд.png"></img></td><td>подъезд</td></tr><tr><td>Ы ы</td><td><i>Ы ы</i></td><td><img src="img/letters/29-Russian_alphabet-ы.svg"></img></td><td>ы</td><td><img src="img/illustrations/29-alphabet-мышь.png"></img></td><td>мышь</td></tr><tr><td>Ь ь</td><td><i>Ь ь</i></td><td><img src="img/letters/30-Russian_alphabet-ь.svg"></img></td><td>мягкий знак</td><td><img src="img/illustrations/30-alphabet-дверь.png"></img></td><td>дверь</td></tr><tr><td>Э э</td><td><i>Э э</i></td><td><img src="img/letters/31-Russian_alphabet-Э_э.svg"></img></td><td>э или э оборотное</td><td><img src="img/illustrations/31-alphabet-эскимо.png"></img></td><td>эскимо</td></tr><tr><td>Ю ю</td><td><i>Ю ю</i></td><td><img src="img/letters/32-Russian_alphabet-Ю_ю.svg"></img></td><td>ю</td><td><img src="img/illustrations/32-alphabet-юла.png"></img></td><td>юла</td></tr><tr><td>Я я</td><td><i>Я я</i></td><td><img src="img/letters/33-Russian_alphabet-Я_я.svg"></img></td><td>я</td><td><img src="img/illustrations/33-alphabet-яблоко.png"></img></td><td>яблоко</td></tr></table>
-        <h1 id="lekcja2">Lekcja 2</h1>
-        <h1 id="lekcja3">Lekcja 3</h1>
-        <h1 id="lekcja4">Lekcja 4</h1>
-        <h1 id="lekcja5">Lekcja 5</h1>
-        <h1 id="lekcja6">Lekcja 6</h1>
-        <h1 id="lekcja7">Lekcja 7</h1>
-        <h1 id="lekcja8">Lekcja 8</h1>
-        <h1 id="lekcja9">Lekcja 9</h1>
-        <h1 id="bibliografia">Bibliografia</h1>
+            <p>Podobnie jak w języku polskim, każdą spółgłoskę stojącą na końcu wyrazu wymawiamy bezdźwięcznie, np. w słowie клуб (klub), б wymawiamy п. </p>
+            <table><thead><tr><th>Буква</th><th>Курсив</th><th>Почерк</th><th>Название</th><th>Иллюстрация</th><th>Слово</th></tr></thead><tbody><tr><td>А а</td><td><i>А а</i></td><td><img src="img/letters/01-Russian_alphabet-А_а.svg"></img></td><td>а</td><td><img src="img/illustrations/01-alphabet-ананас.png"></img></td><td>ананас</td></tr><tr><td>Б б</td><td><i>Б б</i></td><td><img src="img/letters/02-Russian_alphabet-Б_б.svg"></img></td><td>бэ</td><td><img src="img/illustrations/02-alphabet-банан.png"></img></td><td>банан</td></tr><tr><td>В в</td><td><i>В в</i></td><td><img src="img/letters/03-Russian_alphabet-В_в.svg"></img></td><td>вэ</td><td><img src="img/illustrations/03-alphabet-вишня.png"></img></td><td>вишня</td></tr><tr><td>Г г</td><td><i>Г г</i></td><td><img src="img/letters/04-Russian_alphabet-Г_г.svg"></img></td><td>гэ</td><td><img src="img/illustrations/04-alphabet-груша.png"></img></td><td>груша</td></tr><tr><td>Д д</td><td><i>Д д</i></td><td><img src="img/letters/05-Russian_alphabet-Д_д.svg"></img></td><td>де</td><td><img src="img/illustrations/05-alphabet-дом.png"></img></td><td>дом</td></tr><tr><td>Е е</td><td><i>Е е</i></td><td><img src="img/letters/06-Russian_alphabet-Е_е.svg"></img></td><td>е</td><td><img src="img/illustrations/06-alphabet-еда.png"></img></td><td>еда</td></tr><tr><td>Ё ё</td><td><i>Ё ё</i></td><td><img src="img/letters/07-Russian_alphabet-Ё_ё.svg"></img></td><td>ё</td><td><img src="img/illustrations/07-alphabet-ёлка.png"></img></td><td>ёлка</td></tr><tr><td>Ж ж</td><td><i>Ж ж</i></td><td><img src="img/letters/08-Russian_alphabet-Ж_ж.svg"></img></td><td>жэ</td><td><img src="img/illustrations/08-alphabet-жираф.png"></img></td><td>жираф</td></tr><tr><td>З з</td><td><i>З з</i></td><td><img src="img/letters/09-Russian_alphabet-З_з.svg"></img></td><td>зэ</td><td><img src="img/illustrations/09-alphabet-зонт.png"></img></td><td>зонт</td></tr><tr><td>И и</td><td><i>И и</i></td><td><img src="img/letters/10-Russian_alphabet-И_и.svg"></img></td><td>и</td><td><img src="img/illustrations/10-alphabet-Игла.png"></img></td><td>игла</td></tr><tr><td>Й й</td><td><i>Й й</i></td><td><img src="img/letters/11-Russian_alphabet-Й_й.svg"></img></td><td>и краткое</td><td><img src="img/illustrations/11-alphabet-йогурт.png"></img></td><td>йогурт</td></tr><tr><td>К к</td><td><i>К к</i></td><td><img src="img/letters/12-Russian_alphabet-К_к.svg"></img></td><td>ка</td><td><img src="img/illustrations/12-alphabet-кот.png"></img></td><td>кот</td></tr><tr><td>Л л</td><td><i>Л л</i></td><td><img src="img/letters/13-Russian_alphabet-Л_л.svg"></img></td><td>эл</td><td><img src="img/illustrations/13-alphabet-лимон.png"></img></td><td>лимон</td></tr><tr><td>М м</td><td><i>М м</i></td><td><img src="img/letters/14-Russian_alphabet-М_м.svg"></img></td><td>эм</td><td><img src="img/illustrations/14-alphabet-машина.png"></img></td><td>машина</td></tr><tr><td>Н н</td><td><i>Н н</i></td><td><img src="img/letters/15-Russian_alphabet-Н_н.svg"></img></td><td>эн</td><td><img src="img/illustrations/15-alphabet-нос.png"></img></td><td>нос</td></tr><tr><td>О о</td><td><i>О о</i></td><td><img src="img/letters/16-Russian_alphabet-О_о.svg"></img></td><td>о</td><td><img src="img/illustrations/16-alphabet-окно.png"></img></td><td>окно</td></tr><tr><td>П п</td><td><i>П п</i></td><td><img src="img/letters/17-Russian_alphabet-П_п.svg"></img></td><td>пэ</td><td><img src="img/illustrations/17-alphabet-пёс.png"></img></td><td>пёс</td></tr><tr><td>Р р</td><td><i>Р р</i></td><td><img src="img/letters/18-Russian_alphabet-Р_р.svg"></img></td><td>эр</td><td><img src="img/illustrations/18-alphabet-роза.png"></img></td><td>роза</td></tr><tr><td>С с</td><td><i>С с</i></td><td><img src="img/letters/19-Russian_alphabet-С_с.svg"></img></td><td>эс</td><td><img src="img/illustrations/19-alphabet-солнце.png"></img></td><td>солнце</td></tr><tr><td>Т т</td><td><i>Т т</i></td><td><img src="img/letters/20-Russian_alphabet-Т_т.svg"></img></td><td>тэ</td><td><img src="img/illustrations/20-alphabet-тигр.png"></img></td><td>тигр</td></tr><tr><td>У у</td><td><i>У у</i></td><td><img src="img/letters/21-Russian_alphabet-У_у.svg"></img></td><td>у</td><td><img src="img/illustrations/21-alphabet-утка.png"></img></td><td>утка</td></tr><tr><td>Ф ф</td><td><i>Ф ф</i></td><td><img src="img/letters/22-Russian_alphabet-Ф_ф.svg"></img></td><td>эф</td><td><img src="img/illustrations/22-alphabet-фотоаппарат.png"></img></td><td>фотоаппарат</td></tr><tr><td>Х х</td><td><i>Х х</i></td><td><img src="img/letters/23-Russian_alphabet-Х_х.svg"></img></td><td>ха</td><td><img src="img/illustrations/23-alphabet-хлеб.png"></img></td><td>хлеб</td></tr><tr><td>Ц ц</td><td><i>Ц ц</i></td><td><img src="img/letters/24-Russian_alphabet-Ц_ц.svg"></img></td><td>цэ</td><td><img src="img/illustrations/24-alphabet-цветок.png"></img></td><td>цветок</td></tr><tr><td>Ч ч</td><td><i>Ч ч</i></td><td><img src="img/letters/25-Russian_alphabet-Ч_ч.svg"></img></td><td>чэ</td><td><img src="img/illustrations/25-alphabet-часы.png"></img></td><td>часы</td></tr><tr><td>Ш ш</td><td><i>Ш ш</i></td><td><img src="img/letters/26-Russian_alphabet-Ш_ш.svg"></img></td><td>ша</td><td><img src="img/illustrations/26-alphabet-шар.png"></img></td><td>шар</td></tr><tr><td>Щ щ</td><td><i>Щ щ</i></td><td><img src="img/letters/27-Russian_alphabet-Щ_щ.svg"></img></td><td>ща</td><td><img src="img/illustrations/27-alphabet-щука.png"></img></td><td>щука</td></tr><tr><td>Ъ ъ</td><td><i>Ъ ъ</i></td><td><img src="img/letters/28-Russian_alphabet-ъ.svg"></img></td><td>твёрдый знак</td><td><img src="img/illustrations/28-alphabet-подъезд.png"></img></td><td>подъезд</td></tr><tr><td>Ы ы</td><td><i>Ы ы</i></td><td><img src="img/letters/29-Russian_alphabet-ы.svg"></img></td><td>ы</td><td><img src="img/illustrations/29-alphabet-мышь.png"></img></td><td>мышь</td></tr><tr><td>Ь ь</td><td><i>Ь ь</i></td><td><img src="img/letters/30-Russian_alphabet-ь.svg"></img></td><td>мягкий знак</td><td><img src="img/illustrations/30-alphabet-дверь.png"></img></td><td>дверь</td></tr><tr><td>Э э</td><td><i>Э э</i></td><td><img src="img/letters/31-Russian_alphabet-Э_э.svg"></img></td><td>э или э оборотное</td><td><img src="img/illustrations/31-alphabet-эскимо.png"></img></td><td>эскимо</td></tr><tr><td>Ю ю</td><td><i>Ю ю</i></td><td><img src="img/letters/32-Russian_alphabet-Ю_ю.svg"></img></td><td>ю</td><td><img src="img/illustrations/32-alphabet-юла.png"></img></td><td>юла</td></tr><tr><td>Я я</td><td><i>Я я</i></td><td><img src="img/letters/33-Russian_alphabet-Я_я.svg"></img></td><td>я</td><td><img src="img/illustrations/33-alphabet-яблоко.png"></img></td><td>яблоко</td></tr></tbody></table>
+            <p>Czytając teksty w języku rosyjskim, można zauważyć, że czasem Ё (ё) jest pisane bez kropek, tj. jako Е (е). To nie przypadek. Litery Ё (ё) używa się sporadycznie, głównie w książkach dla dzieci i uczniów, w nazwach własnych i rzadko występujących słowach, ewentualnie by uniknąć dwuznaczności.</p>
+            <p>Przed reformą ortografii w 1917 roku alfabet rosyjski posiadał m.in. literę ѣ (tzw. jać - ять). Można ją spotkać w starszych publikacjach, ale również współcześnie w pop kulturze jako przejaw nostalgii. Jej wymowa jest tożsama z е.</p>
+            <h2>Словесное ударение (akcent wyrazowy)</h2>
+            <p>Samogłoski w wyrazie definiują składające się nań sylaby (слоги). Samogłoska w wyrazie może być akcentowana (ударная) lub nieakcentowana (безударная).</p>
+            <p>Charakterystyczną cechą języka rosyjskiego na tle innych języków słowiańskich jest akanie (аканье), tj. wymowa dźwięku podobnego do а na miejscu nieakcentowanej głoski о. To zjawisko nazywane jest również redukcją litery о.</p>
+            <p>W języku rosyjskim nie ma ścisłych reguł akcentuacji – trzeba uczyć się go wraz z wymową każdego wyrazu. To ważne, gdyż błędy akcentowe mogą zmienić znaczenie wyrazu, np. за́мок (zamek) i замо́к (zamek do drzwi).</p>
+            <h2>Наречия (przysłówki)</h2>
+            <table>
+            <thead><tr><th>Разряды (Kategorie przysłówków)</th><th>Вопросы, на которые отвечают (Pytania, na które odpowiadają)</th></tr></thead>
+            <tbody>
+            <tr><td>Наречия образа действия (sposobu)</td><td>Как? Каким образом? (Jak? Jakim sposobem?)</td></tr>
+            <tr><td>Наречия времени (czasu)</td><td>Когда? (Kiedy?)</td></tr>
+            <tr><td>Наречия места (miejsca)</td><td>Где? Куда? Откуда? (Gdzie? Dokąd? Skąd?)</td></tr>
+            <tr><td>Наречия меры и степени (miary i&nbsp;stopnia)</td><td>Сколько? (Ile?) Насколько? (Jak bardzo? W jakim stopniu? O&nbsp;ile?)</td></tr>
+            <tr><td>Наречия причины (przyczyny)</td><td>Почему? (Dlaczego?) Отчего? (Dlaczego? Z&nbsp;jakiego powodu? Z&nbsp;jakiej przyczyny? Z&nbsp;czego? Od czego?)</td></tr>
+            <tr><td>Наречия цели (celu)</td><td>С какои целью? Для чего? (W&nbsp;jakim celu? Po co?)</td></tr>
+            </tbody>
+            </table>
+            <h3>Примеры (przykłady, trudne!)</h3>
+            <ul>
+            <li>Как ты готовишь борщ? (Jak gotujesz barszcz?)</li>
+            <li>Я готовлю борщ медленно и тщательно. (Gotuję barszcz powoli i dokładnie.)</li>
+            </ul>
+            <ul>
+            <li>Каким образом ты научился играть на гитаре? (W jaki sposób nauczyłeś się grać na gitarze?)</li>
+            <li>Я научился играть самостоятельно, по видеоурокам. (Nauczyłem się sam, z tutoriali wideo.)</li>
+            </ul>
+            <ul>
+            <li>Когда мы встретимся? (Kiedy się spotkamy?)</li>
+            <li>Давай встретимся завтра вечером. (Spotkajmy się jutro wieczorem.)</li>
+            </ul>
+            <ul>
+            <li>Где ты оставил ключи? (Gdzie zostawiłeś klucze?)</li>
+            <li>Я оставил их там, на столе. (Zostawiłem je tam, na stole.)</li>
+            </ul>
+            <ul>
+            <li>Куда ты едешь на выходных? (Dokąd jedziesz na weekend?)</li>
+            <li>Я еду за город, на дачу. (Jadę za miasto, na działkę.)</li>
+            </ul>
+            <ul>
+            <li>Откуда ты только что пришёл? (Skąd właśnie przyszedłeś?)</li>
+            <li>Я пришёл от врача. (Przyszedłem od lekarza.)</li>
+            </ul>
+            <ul>
+            <li>Сколько сахара тебе положить в чай? (Ile cukru mam ci wsypać do herbaty?)</li>
+            <li>Положи две ложки, пожалуйста. (Wsyp dwie łyżeczki, proszę.)</li>
+            </ul>
+            <ul>
+            <li>Насколько сложный этот экзамен? (Jak trudny jest ten egzamin?)</li>
+            <li>Он достаточно сложный, нужно хорошо подготовиться. (Jest dość trudny, trzeba się dobrze przygotować.)</li>
+            </ul>
+            <ul>
+            <li>Почему ты опоздал? (Dlaczego się spóźniłeś?)</li>
+            <li>Я опоздал из-за пробок. (Spóźniłem się przez korki.)</li>
+            </ul>
+            <ul>
+            <li>Отчего ты так расстроен? (Z jakiego powodu jesteś taki zdenerwowany?)</li>
+            <li>Я расстроен от неожиданных новостей. (Jestem zdenerwowany przez niespodziewane wiadomości.)</li>
+            </ul>
+            <ul>
+            <li>С какой целью ты звонил директору? (W jakim celu dzwoniłeś do dyrektora?)</li>
+            <li>Я звонил, чтобы обсудить важный проект. (Dzwoniłem, żeby omówić ważny projekt.)</li>
+            </ul>
+            <ul>
+            <li>Для чего ты купил эту книгу? (Po co kupiłeś tę książkę?)</li>
+            <li>Я купил её для изучения истории искусства. (Kupiłem ją do nauki historii sztuki.)</li>
+            </ul>
+            <h3>Где? Возможные ответы (możliwe odpowiedzi)</h3>
+            <ul>
+            <li>тут (tutaj), np. Где Антон? Он тут. (Gdzie jest Anton? On jest tutaj.)</li>
+            <li>там (tam), np. Ето дом. Там мама и папа. (To jest dom. Tam są mama i tata.)</li>
+            <li>здесь (tutaj, bardziej formalnie), np. Где вход? Здесь вход. (Gdzie jest wejście? Wejście jest tutaj.)</li>
+            <li>дома (w domu), np. Где мама? Она дома. (Gdzie jest mama? Mama jest w domu.)</li>
+            <li>в парке, по парку, на столе (w parku, na stole), np. Где ты гуляешь? Я гуляю по парку. (Gdzie spacerujesz? Spaceruję po parku.)</li>
+            </ul>
+            <h2>Простые и сложные предложения (zdania proste i złożone)</h2>
+            <p>Podobnie jak w języku polskim, w języku rosyjskim zdania możemy podzielić na proste i złożone. Jeśli zdanie posiada jeden podmiot (подлежащее) i jedno orzeczenie (сказуемое), nazywamy je zdaniem prostym (простое предложение). Jeśli więcej, takie zdanie nazywamy zdaniem złożonym (сложное предложение).</p>
+            <p>Zdania złożone posiadają często spójniki (союзы) łączące dwa lub więcej zdań pojedynczych tworzących całość.</p>
+            <p>Сочинительные союзы (spójniki współrzędne): и (i), а (a), но (ale), да (i, ale), зато (ale za to, lecz), однако (jednak, ale), же (zaś), то-то (właśnie dlatego), или (lub), либо (albo), не то-не то (albo-albo, a to-a to), тоже (też), также (także, jak również).</p>
+            <h2>Интонационные конструкции (typy intonacyjne)</h2>
+            <p>Typy intonacyjne określają melodię zdania w zależności od jego celu i emocji.</p>
+            <p>Wyróżniamy cztery podstawowe typy intonacyjne ИК-1, ИК-2, ИК-3 i ИК-4:</p>
+            <ul>
+            <li><p>ИК-1 (Neutralna wypowiedź oznajmująca)</p>
+                <ul>
+                <li><p>Ton: Opadający na kluczowym słowie.</p></li>
+                <li><p>Użycie: Zdania neutralne, fakty.</p></li>
+                <li><p>Przykład: "Это мой <b>дом</b>." (To mój dom.)</p>
+                    <p>(Głos opada na słowie "дом")</p></li>
+                </ul>
+            </li>
+            <li><p>ИК-2 (Pytania z zaimkiem pytającym)</p>
+            <ul>
+                <li><p>Ton: Wznoszący się na słowie pytającym.</p></li>
+                <li><p>Użycie: Pytania z кто, что, где, когда itp.</p></li>
+                <li><p>Przykład: "<b>Где</b> ты живёшь?" (Gdzie mieszkasz?)</p>
+                    <p>(Głos rośnie na "где")</p></li>
+            </ul>
+            <li><p>ИК-3 (Pytania bez zaimka, zdania niedokończone)</p>
+            <ul>
+                <li><p>Ton: Ostry wzrost na kluczowym słowie + pauza.</p></li>
+                <li><p>Użycie:</p>
+                    <ul>
+                    <li><p>Pytania typu "Ты <b>согласен</b>?" (Zgadzasz się?)</p></li>
+                    <li><p>Zdania z niedopowiedzeniem: "Если бы ты <b>знал</b>..." (Gdybyś wiedział...)</p></li>
+                    </ul>
+                </li>
+                <li><p>Przykład: "Ты уже <b>поел</b>?" (Już jadłeś?)</p>
+                    <p>(Głos szybko rośnie na "поел")</p></li>
+            </ul>
+            <li><p>ИК-4 (Zdania emocjonalne, kontrast, zdziwienie)</p>
+            <ul>
+                <li><p>Ton: Gwałtowny spadek na kluczowym słowie + niższa tonacja końcowa.</p></li>
+                <li><p>Użycie:</p>
+                    <ul>
+                    <li><p>Emocje: "Какой <b>ужас</b>!" (Co za okropność!)</p></li>
+                    <li><p>Kontrast: "Я-то <b>пришёл</b>, а <b>ты</b>?" (Ja przyszedłem, a ty?)</p></li>
+                    </ul>
+                </li>
+                <li><p>Przykład: "Это было <b>потрясающе</b>!" (To było niesamowite!)</p>
+                    <p>(Głos spada na "потрясающе")</p></li>
+            </ul>
+</ul>
+            <p>Istnieją także rzadziej omawiane ИК-5 (emfatyczne podkreślenie, porównania) i ИК-6 (zdania z enumeracją, wyliczenia).<p>
+            <h2>Жи-ши пиши с буквой И!</h2>
+            <p>Spółgłoski ж, ш zawsze piszemy z и, nigdy z ы, mimo że wymawiamy inaczej, np. w wyrazie жизнь (życie).</p>
+            <h2>Личные местоимения (zaimki osobowe)</h2>
+            <p>Zaimki osobowe to słowa zastępujące rzeczowniki oznaczające osoby:</p>
+            <ul>
+            <li><p>первое лицо, единственное число: я (ja),</p></li>
+            <li><p>второе лицо, единственное число: ты (ty),</p></li>
+            <li><p>третье лицо, единственное число: он, она, оно (on, ona, ono),</p></li>
+            <li><p>первое лицо, множественное число: мы (my),</p></li>
+            <li><p>второе лицо, множественное число: вы (wy),</p></li>
+            <li><p>третье лицо, множественное число: они (oni).</p></li>
+            </ul>
+            <p>Formy ты używa się do zwracania się do jednej osoby w sposób niezbyt formalny, np. do znajomych, rodziny, dzieci.</p>
+            <p>Formy вы używa się do zwracania się do grupy osób, ale również do jednej osoby w sposób bardziej formalny, np. do osób starszych, przełożonych, nieznajomych.</p>
+            <h2>Имя существительные (rzeczowniki)</h2>
+            <p>Rzeczownik (имя существительное) odpowiada na pytania kto? (кто?) co? (что?). Podobnie jak w języku polskim, w języku rosyjskim rzeczowniki dzielą się ze względu na rodzaj (род):</p>
+            <ul>
+            <li><p>мужской (męski) - zwykle bez specyficznej końcówki, np. гриб, плащ,</p></li>
+            <li><p>женский (żeński) - zwykle mają końcówkę -а, -я, np. мам<b>а</b>, тёт<b>я</b>,</p></li>
+            <li><p>средний (nijaki) - zwykle mają końcówkę -о, -е, np. солнц<b>е</b>, яблок<b>о</b>.</p></li>
+            </ul>
+            <h2>Притяжательные местоимения (zaimki dzierżawcze)</h2>
+            <p>Zaimki dzierżawcze to słowa, które zastępują rzeczowniki i wskazują na przynależność. Wyrażają posiadanie i wskazują na to, do kogo dana rzecz należy.</p>
+            <table>
+            <thead><tr><th>Личное местоимение</th><th>Чей? (Czyj?)</th><th>Чья? (Czyja?)</th><th>Чьё? (Czyje?)</th></tr></thead>
+            <tbody>
+            <tr><td>я</td><td>мой</td><td>моя</td><td>моё</td></tr>
+            <tr><td>ты</td><td></td><td></td><td></td></tr>
+            <tr><td>он</td><td></td><td></td><td></td></tr>
+            <tr><td>она</td><td></td><td></td><td></td></tr>
+            <tr><td>оно</td><td></td><td></td><td></td></tr>
+            <tr><td>мы</td><td></td><td></td><td></td></tr>
+            <tr><td>вы</td><td></td><td></td><td></td></tr>
+            <tr><td>они</td><td></td><td></td><td></td></tr>
+            </tbody>
+            </table>
+            <h2>Примеры диалогов при встрече (Przykłady dialogów przy spotkaniu)</h2>
+            <ul>
+            <li>Привет! Как дела? (Cześć! Jak się masz?)</li>
+            <li>Привет! Всё хорошо, спасибо! (Cześć! Wszystko dobrze, dziękuję!)</li>
+            </ul>
+            <ul>
+            <li>Здравствуйте! Как ваши дела? (Dzień dobry! Jak się Pan/Pani ma?)</li>
+            <li>Спасибо, хорошо! А у вас? (Dziękuję, dobrze! A u Pana/Pani?)</li>
+            </ul>
+            <ul>
+            <li>Привет! Давно не виделись! (Cześć! Dawno się nie widzieliśmy!)</li>
+            <li>Очень рад тебя видеть! (Bardzo się cieszę, że cię widzę!)</li>
+            </ul>
+            <ul>
+            <li>Привет! Меня зовут Анна. А тебя? (Cześć! Nazywam się Anna. A ty?)</li>
+            <li>Очень приятно! Я Максим. (Bardzo mi miło! Jestem Maksym.)</li>
+            </ul>
+            <ul>
+            <li>Извините, как вас зовут? (Przepraszam, jak się Pan/Pani nazywa?)</li>
+            <li>Меня зовут Мария Иванова. (Nazywam się Maria Iwanowa.)</li>
+            </ul>
+            <ul>
+            <li>Здравствуйте! Позвольте представиться: Иван Петров. (Dzień dobry! Pozwólcie, że się przedstawię: Iwan Piotrow.)</li>
+            <li>Очень приятно, господин Петров. Я Елена Смирнова. (Bardzo mi miło, panie Piotrow. Jestem Jelena Smirnowa.)</li>
+            </ul>
+            <ul>
+            <p>W pracy, szef przedstawia nowego pracownika zespołowi:</p>
+            <li>Коллеги, познакомьтесь: это Алексей, наш новый программист. (Koledzy, poznajcie: to Aleksiej, nasz nowy programista.)</li>
+            <li>Очень приятно! (Bardzo mi miło!)</li>
+            </ul>
+            <ul>
+            <p>Przyjaciel przedstawia znajomych na imprezie:</p>
+            <li>Саша, познакомься: это Катя, моя одногруппница. (Sasza, poznaj: to Kasia, moja koleżanka z grupy.)</li>
+            <li>Привет, Катя! (Cześć, Kasia!)</li>
+            </ul>
+            <ul>
+            <p>Skrócona wersja, szczególnie wśród młodych ludzi:</p>
+            <li>Знакомься, это Дима. (Poznaj, to Dima.)</li>
+            </ul>
+            <h2>Личные местоимения и их формы: Кого зовут?</h2>
+            <p>Poniżej przedstawiono zaimki osobowe wraz z ich formą w bierniku, oraz praktyczne ich użycie w konstrukcji звать.</p>
+            <ul>
+            <li>Я - меня (Меня зовут Александр)</li>
+            <li>Ты - тебя (Тебя зовут Валентин?)</li>
+            <li>Он - его (Его зовут Миша)</li>
+            <li>Она - её (Её зовут Анна)</li>
+            <li>Мы - нас (Нас зовут Нина и Денис)</li>
+            <li>Вы - вас (Вас зовут Антон Иванович?)</li>
+            <li>Они - их (Их зовут Яна и Макс)</li>
+            </ul>
+            <h2>Wymowa spółgłoski л</h2>
+            <p>Spółgłoska л sprawia niektórym spore problemy w wymowie, gdyż nie ma swojego odpowiednika w mowie potocznej w języku polskim. Jest to spółgłoska półotwarta boczna dziąsłowa welaryzowana, w Polsce zwyczajowo zwana ł aktorskim.</p>
+            <p>W przypadku zmiękczenia przez samogłoski е, ё, ю, я, и lub znak ь, literę л wymawiamy jako spółgłoskę boczną półotwartą podniebienną, tj. w czasie wymowy środkowa część języka dotyka podniebienia twardego.</p>
+            <p>Warto zrozumieć, w jaki sposób język układa się w czasie wymowy spółgłosek twardych i miękkich. Bardzo mi to pomogło w określeniu, jak należy wymawiać л. Na start polecam <a href="https://www.youtube.com/watch?v=jnXdG1-d9-k"><img src="img/youtube.png"></img> to wideo</a>.</p>
+            <h2>Словарный запас (słownictwo)</h2>
+            <table>
+            <thead><tr><th>Слово</th><th>Перевод</th></tr></thead>
+            <tbody>
+            <tr><td>автобус</td><td>autobus</td></tr>
+            <tr><td>бабушка</td><td>babcia</td></tr>
+            <tr><td>банан</td><td>banan</td></tr>
+            <tr><td>брат</td><td>brat</td></tr>
+            <tr><td>ваза</td><td>waza</td></tr>
+            <tr><td>вода</td><td>woda</td></tr>
+            <tr><td>восток</td><td>wschód</td></tr>
+            <tr><td>глаз</td><td>oko</td></tr>
+            <tr><td>год</td><td>rok</td></tr>
+            <tr><td>гора</td><td>góra</td></tr>
+            <tr><td>город</td><td>miasto</td></tr>
+            <tr><td>горы</td><td>góry</td></tr>
+            <tr><td>градус</td><td>stopień</td></tr>
+            <tr><td>группа</td><td>grupa</td></tr>
+            <tr><td>груша</td><td>gruszka</td></tr>
+            <tr><td>да</td><td>tak</td></tr>
+            <tr><td>дата</td><td>data</td></tr>
+            <tr><td>два</td><td>dwa</td></tr>
+            <tr><td>девочка</td><td>dziewczynka</td></tr>
+            <tr><td>доктор</td><td>lekarz</td></tr>
+            <tr><td>дома</td><td>domy</td></tr>
+            <tr><td>дорога</td><td>droga</td></tr>
+            <tr><td>дорого</td><td>drogo</td></tr>
+            <tr><td>доска</td><td>deska</td></tr>
+            <tr><td>друг</td><td>przyjaciel</td></tr>
+            <tr><td>дым</td><td>dym</td></tr>
+            <tr><td>етаж</td><td>piętro</td></tr>
+            <tr><td>жар</td><td>upał</td></tr>
+            <tr><td>жарко</td><td>gorąco</td></tr>
+            <tr><td>жена</td><td>żona</td></tr>
+            <tr><td>жираф</td><td>żyrafa</td></tr>
+            <tr><td>жук</td><td>żuk</td></tr>
+            <tr><td>журнал</td><td>czasopismo</td></tr>
+            <tr><td>зал</td><td>sala</td></tr>
+            <tr><td>запад</td><td>zachód</td></tr>
+            <tr><td>здание</td><td>budynek</td></tr>
+            <tr><td>зонт</td><td>parasol</td></tr>
+            <tr><td>зуб</td><td>ząб</td></tr>
+            <tr><td>игла</td><td>igła</td></tr>
+            <tr><td>институт</td><td>instytut</td></tr>
+            <tr><td>карандаш</td><td>ołówek</td></tr>
+            <tr><td>карта</td><td>mapa</td></tr>
+            <tr><td>класс</td><td>klasa</td></tr>
+            <tr><td>клуб</td><td>klub</td></tr>
+            <tr><td>колбаса</td><td>kiełbasa</td></tr>
+            <tr><td>комната</td><td>pokój</td></tr>
+            <tr><td>корпус</td><td>korpus,</td></tr>
+            <tr><td>кот</td><td>kot</td></tr>
+            <tr><td>кошка</td><td>kot,</td></tr>
+            <tr><td>крыша</td><td>dach</td></tr>
+            <tr><td>лампа</td><td>lampa</td></tr>
+            <tr><td>лапша</td><td>makaron</td></tr>
+            <tr><td>ложка</td><td>łyżka</td></tr>
+            <tr><td>лужа</td><td>kałuża</td></tr>
+            <tr><td>лук</td><td>cebula,</td></tr>
+            <tr><td>луна</td><td>księżyc</td></tr>
+            <tr><td>любимая</td><td>ulubiona</td></tr>
+            <tr><td>мало</td><td>mało</td></tr>
+            <tr><td>мама</td><td>mama</td></tr>
+            <tr><td>масло</td><td>masło,</td></tr>
+            <tr><td>машина</td><td>samochód</td></tr>
+            <tr><td>медведь</td><td>niedźwiedź</td></tr>
+            <tr><td>много</td><td>dużo</td></tr>
+            <tr><td>мода</td><td>moda</td></tr>
+            <tr><td>можно</td><td>można</td></tr>
+            <tr><td>молоко</td><td>mleko</td></tr>
+            <tr><td>мост</td><td>most</td></tr>
+            <tr><td>муж</td><td>mąż</td></tr>
+            <tr><td>музыка</td><td>muzyka</td></tr>
+            <tr><td>мыло</td><td>mydło</td></tr>
+            <tr><td>надо</td><td>trzeba</td></tr>
+            <tr><td>небо</td><td>niebo</td></tr>
+            <tr><td>нет</td><td>nie</td></tr>
+            <tr><td>нога</td><td>noga</td></tr>
+            <tr><td>нож</td><td>nóż</td></tr>
+            <tr><td>нос</td><td>nos</td></tr>
+            <tr><td>нота</td><td>nuta</td></tr>
+            <tr><td>окно</td><td>okno</td></tr>
+            <tr><td>остров</td><td>wyspa</td></tr>
+            <tr><td>ошибка</td><td>błąd</td></tr>
+            <tr><td>папа</td><td>tata</td></tr>
+            <tr><td>парк</td><td>park</td></tr>
+            <tr><td>план</td><td>plan</td></tr>
+            <tr><td>плохо</td><td>źle</td></tr>
+            <tr><td>повар</td><td>kucharz</td></tr>
+            <tr><td>погода</td><td>pogoda</td></tr>
+            <tr><td>подруга</td><td>przyjaciółka</td></tr>
+            <tr><td>подушка</td><td>poduszka</td></tr>
+            <tr><td>поет</td><td>śpiewa</td></tr>
+            <tr><td>пол</td><td>podłoga,</td></tr>
+            <tr><td>полка</td><td>półka</td></tr>
+            <tr><td>посуда</td><td>naczynia</td></tr>
+            <tr><td>потолок</td><td>sufit</td></tr>
+            <tr><td>потом</td><td>potem</td></tr>
+            <tr><td>рассказ</td><td>opowiadanie</td></tr>
+            <tr><td>роза</td><td>róża</td></tr>
+            <tr><td>рот</td><td>usta</td></tr>
+            <tr><td>рубашка</td><td>koszula</td></tr>
+            <tr><td>рука</td><td>ręka</td></tr>
+            <tr><td>рынок</td><td>rynek</td></tr>
+            <tr><td>сад</td><td>ogród</td></tr>
+            <tr><td>салат</td><td>sałatka</td></tr>
+            <tr><td>собака</td><td>pies</td></tr>
+            <tr><td>собор</td><td>katedra,</td></tr>
+            <tr><td>сок</td><td>sok</td></tr>
+            <tr><td>сон</td><td>sen</td></tr>
+            <tr><td>спасибо</td><td>dziękuję</td></tr>
+            <tr><td>спорт</td><td>sport</td></tr>
+            <tr><td>стакан</td><td>szklanka</td></tr>
+            <tr><td>стол</td><td>stół</td></tr>
+            <tr><td>страна</td><td>kraj</td></tr>
+            <tr><td>стул</td><td>krzesło</td></tr>
+            <tr><td>суп</td><td>zupa</td></tr>
+            <tr><td>сын</td><td>syn</td></tr>
+            <tr><td>сыр</td><td>ser</td></tr>
+            <tr><td>таблица</td><td>tabela</td></tr>
+            <tr><td>тепло</td><td>ciepło</td></tr>
+            <tr><td>томат</td><td>pomidor</td></tr>
+            <tr><td>торт</td><td>tort</td></tr>
+            <tr><td>туда</td><td>tam</td></tr>
+            <tr><td>ужасно</td><td>okropnie</td></tr>
+            <tr><td>уже</td><td>już</td></tr>
+            <tr><td>ум</td><td>rozum</td></tr>
+            <tr><td>урок</td><td>lekcja</td></tr>
+            <tr><td>фон</td><td>tło</td></tr>
+            <tr><td>фонтан</td><td>fontanna</td></tr>
+            <tr><td>фото</td><td>zdjęcie</td></tr>
+            <tr><td>футбол</td><td>piłka</td></tr>
+            <tr><td>холодно</td><td>zimno</td></tr>
+            <tr><td>хорошо</td><td>dobrze</td></tr>
+            <tr><td>часы</td><td>zegar</td></tr>
+            <tr><td>шапка</td><td>czapka</td></tr>
+            <tr><td>шар</td><td>kula</td></tr>
+            <tr><td>шарф</td><td>szalik</td></tr>
+            <tr><td>шкаф</td><td>szafa</td></tr>
+            <tr><td>школа</td><td>szkoła</td></tr>
+            <tr><td>шоколад</td><td>czekolada</td></tr>
+            <tr><td>шуба</td><td>futro</td></tr>
+            </tbody>
+            </table>
+        <h1 id="lekcja2">Урок 2</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=-jnO7wNnZd0"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 2</a></p>
+        <h1 id="lekcja3">Урок 3</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=3x4-tQmL-CE"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 3</a></p>
+        <h1 id="lekcja4">Урок 4</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=RGP95iMILfw"><img src="img/youtube.png"></img> JĘZYK ROSYJSKI NAUKA | LEKCJA 4</a></p>
+        <h1 id="lekcja5">Урок 5</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=VMlUQKaHcW0"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 5</a></p>
+        <h1 id="lekcja6">Урок 6</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=LWEeN0QhCbs"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 6</a></p>
+        <h1 id="lekcja7">Урок 7</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=sQGFrSFYiMg"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 7</a></p>
+        <h1 id="lekcja8">Урок 8</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=TXHXBGrQTIg"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 8</a></p>
+        <h1 id="lekcja9">Урок 9</h1>
+        <p>Ссылка на видеоматериал: <a href="https://www.youtube.com/watch?v=XnXv2mUm7lw"><img src="img/youtube.png"></img> NAUCZ SIĘ MÓWIĆ PO ROSYJSKU | LEKCJA 9</a></p>
+        <h1 id="bibliografia">Библиография (Bibliografia)</h1>
     </main>
 </body>
 </html>
